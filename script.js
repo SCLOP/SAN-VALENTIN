@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    let mensaje = "Corazon de mi vida, desde el primer momento en que entraste en mi vida, loa cambiaste para super mejor. En este San Valentín, quiero preguntarte algo especial... aunque ya te lo pregunte, este es mas cool";
+ seas mi San Valentindocument.addEventListener("DOMContentLoaded", function() {
+    let mensaje = "Corazon de mi vida, desde el primer momento en que entraste en mi vida, loa cambiaste para super mejor. En este San Valentín, quiero preguntarte algo especial... quieres ser mi San Valentin";
     let i = 0;
     let speed = 50;
     function escribirTexto() {
