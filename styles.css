@@ -18,6 +18,7 @@ margin: 0;
     flex-direction: column;
     text-align: center;
     color: white;
+    box-sizing: border-box; /* Hace que los márgenes y el padding no afecten el tamaño total del cuerpo */
 }
 
 .container {
@@ -25,6 +26,11 @@ margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+     z-index: 2;
+    padding: 20px;  /* Agrega algo de espacio alrededor del texto */
+    margin: 20px;   /* Asegura que el contenido no toque los bordes */
+    max-width: 90%;  /* Limita el ancho del contenedor */
+    box-sizing: border-box;
 }
 
 h1 {
@@ -34,6 +40,7 @@ h1 {
     border-right: 3px solid white;
     width: 0;
     animation: escribir 4s steps(50, end) forwards;
+    word-wrap: break-word; /* Esto asegura que las palabras largas se ajusten */
 }
 
 @keyframes escribir {
