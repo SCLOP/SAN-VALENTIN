@@ -27,8 +27,8 @@ margin: 0;
     left: 50%;
     transform: translate(-50%, -50%);
      z-index: 2;
-    padding: 10px;  /* Agrega algo de espacio alrededor del texto */
-    margin: 10px;   /* Asegura que el contenido no toque los bordes */
+    padding: 5px;  /* Agrega algo de espacio alrededor del texto */
+    margin: 5px;   /* Asegura que el contenido no toque los bordes */
     max-width: 90%;  /* Limita el ancho del contenedor */
     box-sizing: border-box;
 }
