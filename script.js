@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let mensaje = "Alejandra Viviana, desde el primer momento en que entraste en mi vida, supe que eras alguien único. En este San Valentín, quiero preguntarte algo especial...";
+    let mensaje = "Corazon de mi vida, desde el primer momento en que entraste en mi vida, loa cambiaste para super mejor. En este San Valentín, quiero preguntarte algo especial... aunque ya te lo pregunte, este es mas cool";
     let i = 0;
     let speed = 50;
     function escribirTexto() {
@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("btnSi").addEventListener("click", function() {
     document.getElementById("fireworks-container").style.display = "block";
     lanzarFuegosArtificiales();
-    alert("¡Sabía que dirías que sí! 💙 Te amo, Alejandra.");
+    alert("¡Sabía que dirías que sí! 💙 Te amo miCorazon de melon.");
 });
 
 document.getElementById("btnNo").addEventListener("click", function() {
-    alert("¿Estás segura? 🤔 Puedo darte más razones... 💕");
+    alert("¿Estás segura? 🤔 Puedo darte más razones... como por ejemplo que yo te amo mucho mucho siempre mas 1 💕");
 });
 
 document.getElementById("muteBtn").addEventListener("click", function() {
