@@ -1,5 +1,5 @@
- seas mi San Valentindocument.addEventListener("DOMContentLoaded", function() {
-    let mensaje = "Corazon de mi vida, desde el primer momento en que entraste en mi vida, loa cambiaste para super mejor. En este San Valentín, quiero preguntarte algo especial... quieres ser mi San Valentin";
+document.addEventListener("DOMContentLoaded", function() {
+    let mensaje = "Corazon, desde el primer momento en que entraste en mi vida la cambiaste por completo. En este San Valentín, quiero preguntarte si quieres ser mi San Valentin";
     let i = 0;
     let speed = 50;
     function escribirTexto() {
@@ -15,11 +15,11 @@
 document.getElementById("btnSi").addEventListener("click", function() {
     document.getElementById("fireworks-container").style.display = "block";
     lanzarFuegosArtificiales();
-    alert("¡Sabía que dirías que sí! 💙 Te amo miCorazon de melon.");
+    alert("¡Sabía que dirías que sí! 💙 Te amo, Corazon de melon.");
 });
 
 document.getElementById("btnNo").addEventListener("click", function() {
-    alert("¿Estás segura? 🤔 Puedo darte más razones... como por ejemplo que yo te amo mucho mucho siempre mas 1 💕");
+    alert("¿Estás segura? 🤔 Puedo darte más razones... como por jemplo que te amo siempre simpre mas 1 💕");
 });
 
 document.getElementById("muteBtn").addEventListener("click", function() {
@@ -54,3 +54,4 @@ function lanzarFuegosArtificiales() {
         }, 1000);
     }
 }
+
