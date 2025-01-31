@@ -19,7 +19,7 @@ document.getElementById("btnSi").addEventListener("click", function() {
 });
 
 document.getElementById("btnNo").addEventListener("click", function() {
-    alert("¿Estás segura? 🤔 Puedo darte más razones... como por jemplo que te amo siempre simpre mas 1 💕");
+    alert("¿Estás segura? 😨Pero si yo te amo mucho y uedo darte más razones... como por jemplo que te amo siempre simpre mas 1 💕");
 });
 
 document.getElementById("muteBtn").addEventListener("click", function() {
