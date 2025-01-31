@@ -97,28 +97,3 @@ button:hover {
 }
 
 
-
-.te-amo {
-    position: absolute;
-    font-size: 20px;
-    color: red;
-    font-weight: bold;
-    animation: fadeInOut 3s linear infinite, moveRandom 3s linear infinite;
-}
-
-/* Animación de aparición y desaparición */
-@keyframes fadeInOut {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
-/* Animación para moverlo a posiciones aleatorias */
-@keyframes moveRandom {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(calc(100vw * (random() - 0.5)), calc(100vh * (random() - 0.5)));
-    }
-}
