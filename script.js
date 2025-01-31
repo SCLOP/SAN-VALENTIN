@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         for (let i = 0; i < contador; i++) {
             let teAmo = document.createElement("div");
             teAmo.classList.add("te-amo");
-            teAmo.textContent = "Te amo ❤️";
+            teAmo.textContent = "Te amo Siempre mas 1❤️";
 
             // Posición aleatoria en la pantalla
             let x = Math.random() * window.innerWidth;
