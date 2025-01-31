@@ -90,5 +90,13 @@ button:hover {
     pointer-events: none;
     display: none;
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Reduce el tamaño del encabezado en pantallas pequeñas */
+    }
 
+    .container {
+        padding: 15px;
+    }
+}
 
