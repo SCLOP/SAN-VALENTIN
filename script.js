@@ -10,33 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     escribirTexto();
- let contador = 1; // Contador de "Te amo"
 
-    function crearTeAmo() {
-        for (let i = 0; i < contador; i++) {
-            let teAmo = document.createElement("div");
-            teAmo.classList.add("te-amo");
-            teAmo.textContent = "Te amo Siempre mas 1❤️";
-
-            // Posición aleatoria en la pantalla
-            let x = Math.random() * window.innerWidth;
-            let y = Math.random() * window.innerHeight;
-
-            teAmo.style.left = `${x}px`;
-            teAmo.style.top = `${y}px`;
-
-            document.body.appendChild(teAmo);
-
-            // Eliminar después de unos segundos
-            setTimeout(() => {
-                teAmo.remove();
-            }, 3000);
-        }
-        contador++; // Aumenta la cantidad de "Te amo"
-    }
-
-    // Agregar nuevas palabras cada 1.5 segundos
-    setInterval(crearTeAmo, 1500);
     
 });
 
