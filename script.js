@@ -19,7 +19,7 @@ document.getElementById("btnSi").addEventListener("click", function() {
 });
 
 document.getElementById("btnNo").addEventListener("click", function() {
-    alert("¿Estás segura? 😨Pero si yo te amo mucho y uedo darte más razones... como por jemplo que te amo siempre simpre mas 1 💕");
+    alert("¿Estás segura? 😨Pero si yo te amo mucho y puedo darte mis razones... como por ejemplo que te amo siempre simpre mas 1 💕 y que eres el amor de mi vida💕 ademas a quien quieres de san valentin aparte de mi tu amor de tu vida🙄 por que andas en este boton😲 ");
 });
 
 document.getElementById("muteBtn").addEventListener("click", function() {
